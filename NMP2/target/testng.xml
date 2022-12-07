@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite" parallel="none">
+
+<listeners>
+<listener class-name = "report.MyListener"/>
+</listeners>
+
+<test name="UI Tests" parallel="none">
+
+<classes>
+
+<class name="P1.C1"/>
+
+</classes>
+
+</test>
+
+</suite>
